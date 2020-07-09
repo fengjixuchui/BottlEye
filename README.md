@@ -11,7 +11,10 @@ First you need to set up a man-in-the-middle environment that allows you to capt
 If you are having issues figuring out the ip address and port to monitor with Wireshark (or whatever tool you choose to use), build BottlEye without the responses and launch the game with it. BottlEye will print the ip and port, which you can later use to filter traffic with.
 
 
+## Compiling
+
 ### Linux
+To compile on Linux, run these commands:
 ```bash
 git submodule update --init
 cd BottlEye
